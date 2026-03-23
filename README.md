@@ -47,7 +47,27 @@ python3 main.py
 
 **Example output**
 
-If the user enters AAPL:
+If the user enters AAPL, the program will output this in the terminal:
+
+```text
+Stock Analyzer starting...
+Enter stock symbol (e.g., AAPL): AAPL
+Data for AAPL fetched successfully.
+Daily returns calculated.
+20-day moving average calculated.
+Average Daily Return: -0.0002
+Volatility (Std Dev of Daily Returns): 0.0133
+                                 Open        High         Low       Close     Volume  Dividends  Stock Splits  Daily Return  MA_20
+Date                                                                                                                              
+2025-09-22 00:00:00-04:00  247.827636  256.151782  247.647971  255.592819  105517400        0.0           0.0           NaN    NaN
+2025-09-23 00:00:00-04:00  255.393222  256.850436  253.097595  253.945969   60275200        0.0           0.0     -0.006443    NaN
+2025-09-24 00:00:00-04:00  254.734469  255.253485  250.562414  251.830002   42303700        0.0           0.0     -0.008332    NaN
+2025-09-25 00:00:00-04:00  252.728292  256.680765  251.231145  256.381317   55202100        0.0           0.0      0.018073    NaN
+2025-09-26 00:00:00-04:00  253.616601  257.109942  253.297202  254.974014   46076300        0.0           0.0     -0.005489    NaN
+```
+
+And this graph:
+![Stock Analysis Chart]
 
 
 
