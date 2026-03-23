@@ -45,7 +45,7 @@ python3 main.py
 
 
 
-**Example output**
+## Example output
 
 If the user enters AAPL, the program will output this in the terminal:
 
@@ -67,7 +67,25 @@ Date
 ```
 
 And this graph:
-![Stock Analysis Chart]
+![Stock Analysis Chart](stock_analysis_graph.png)
+
+
+## What I learned
+
+- Working with financial data in python
+- Using APIs (Yahoo Finance via yfinance)
+- Data visualization using matplotlib
+- Data analysis using pandas
+- Reinforced my understand of Object-oriented programming
+
+
+## Future improvements
+
+- Compare multiple stocks
+- Add a user interface (GUI or web app)
+
+
+
 
 
 
